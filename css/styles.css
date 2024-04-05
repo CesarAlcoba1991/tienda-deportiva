@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(229, 133, 255, 0.52);
+    padding: 5px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.product-card {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.product-image img {
+    width: 250px;
+}
+
+.cart {
+    border: 10px solid #ff0c0ca6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.cart-items {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+button {
+    background-color: rgb(229, 133, 255);
+    border-radius: 20px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bb0000e1;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+    background-image: url(../img/rsg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+
+    list-style: none;    
+    background-color: rgba(255, 255, 255, 0.57);
+}
+
+footer {
+    background-color: rgba(229, 133, 255, 0.52);
+    padding: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.689);
+}
+
+p{
+    color: rgba(0, 0, 0, 0.741);
+    font-size: 20px;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 27px;
+}
